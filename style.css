@@ -1,0 +1,82 @@
+body {
+    background: #e7e8ec;
+
+}
+
+/* <!-- //main// --> */
+/* <!-- searchbar --> */
+.search-main {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: 99;
+}
+
+.search-bar .form-control {
+    padding-left: 2.375rem;
+
+}
+
+input::placeholder {
+    color: #aaa !important;
+    opacity: 0.8 !important;
+}
+
+.search-bar .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #6c757d;
+    border: #ced4da;
+}
+
+/* <!-- slider --> */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    font-size: 5em;
+    color: white;
+
+}
+
+/* <!-- promotion --> */
+.promotion {
+    margin-top: 7%;
+}
+
+/* <!-- //category/ --> */
+.channel-content{
+    margin-top: 5%;
+}
+.channel-content{  
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+      
+}
+.channel-content img{  
+    width: 75%;
+    margin-bottom: 0.2em;
+  
+}
+ 
+
+
+
+
