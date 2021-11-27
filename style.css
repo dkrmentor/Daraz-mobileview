@@ -278,3 +278,78 @@ input::placeholder {
     text-decoration: none;
     font-size: 0.8em;
 }
+
+
+/* ==========profile-header========== */
+.profile-header {
+    background: linear-gradient(to right, #442e93 0, #25a5d8 100%);
+    color: white;
+
+
+}
+
+.profile-dropdown {
+    font-size: 0.7em !important;
+    min-width: 0.8em !important;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7em;
+
+
+
+}
+
+.headertop2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.headertop2 a {
+    color: white;
+    text-decoration: none;
+    background-color: #ea7221;
+    padding: 0.7em;
+    margin-bottom: 1em;
+}
+
+/* ==========profile-row========== */
+.profilerow {
+    background-color: white;
+    margin-top: 0.5em;
+    margin-bottom: -0.5em;
+    color: #999999;
+}
+
+.profilerow ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.profilerow li {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.profilerow a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.profilerowstrip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: 1em;
+    padding: 1.4em;
+
+}
