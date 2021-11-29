@@ -253,7 +253,7 @@ input::placeholder {
 
 .mobile-bottom-nav__item {
     flex-grow: 1;
-    text-align: center;
+
     font-size: 12px;
 
     display: flex;
@@ -279,8 +279,81 @@ input::placeholder {
     font-size: 0.8em;
 }
 
+/* =====================================Cart Page===================================== */
 
-/* ==========profile-header========== */
+.cart-content {
+    background: white;
+
+
+}
+
+.cartstrip {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+.cartstrip input {
+    width: 70%;
+
+    font-size: 0.8em;
+
+
+}
+
+.cartstrip a {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(255, 135, 99), rgb(255, 51, 12));
+    font-size: 0.8em;
+    padding: 0.5em 1.5em 0.7em 1.5em;
+}
+
+.checkoutbtn a {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(255, 135, 99), rgb(255, 51, 12));
+    font-size: 1.2em;
+    padding: 0.3em 1em 0.4em 1em;
+
+
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.cart input {
+
+
+    padding: 0.5em;
+}
+
+.mycartproduct {
+    background-color: white;
+    display: flex;
+
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 1em;
+
+}
+
+.mycartproduct img {
+    width: 100%;
+
+
+}
+
+
+
+/* =====================================Profile Page===================================== */
+
+/* //profile-header// */
 .profile-header {
     background: linear-gradient(to right, #442e93 0, #25a5d8 100%);
     color: white;
@@ -318,7 +391,44 @@ input::placeholder {
     margin-bottom: 1em;
 }
 
-/* ==========profile-row========== */
+
+
+.input-container {
+
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+
+input[type="checkbox"] {
+    border-radius: 50% !important;
+
+    appearance: none;
+
+    box-shadow: inset 0 0 0 0.125rem #666;
+    height: 1.125rem;
+    width: 1.125rem;
+    display: inline-block;
+
+    position: relative;
+
+    margin-right: 0.2rem;
+
+
+}
+
+input[type="checkbox"]:checked {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0,0H24V24H0Z" fill="none"/><path d="M19,3H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5A2,2,0,0,0,19,3ZM10,17,5,12l1.41-1.41L10,14.17l7.59-7.59L19,8Z" fill="rgb(255, 51, 12)"/></svg>');
+    background-position: center;
+    box-shadow: none;
+
+
+
+}
+
+
+/* //profile-row//*/
 .profilerow {
     background-color: white;
     margin-top: 0.5em;
@@ -353,3 +463,57 @@ input::placeholder {
     padding: 1.4em;
 
 }
+
+
+/* ====================================registration==================================== */
+
+.card {
+    width: 100%;
+  
+   
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+   
+}
+
+
+
+.nav-item {
+    display: table-cell;
+    background-color: white !important;
+   
+}
+
+.form {
+    padding: 10px;
+    height: 300px;
+
+}
+
+.form input {
+    margin-bottom: 6%;
+   
+ 
+  
+}
+
+
+.form button {
+    background-color: #f57224 !important;
+    margin-top:30%;
+}
+.reg a{
+    background-color: white !important;
+    color: #9e9e9e !important;
+    font-weight: bold;
+    
+}
+.reg .active{
+    color: #f57224 !important;
+    text-decoration: underline;
+}
+
+
